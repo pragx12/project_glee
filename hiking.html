@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Glee</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a  href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search a Hobby">
+            <ul id="myUL">
+                <li><a href="coding.html">Coding</a></li>
+                <li><a href="cooking.html">Cooking</a></li>
+                <li><a href="dancing.html">Dancing</a></li>
+                <li><a href="guitar.html">Guitar</a></li>
+                <li><a href="hiking.html">Hiking</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="singing.html">Singing</a></li>
+                <li><a href="travelling.html">Travelling</a></li>
+            </ul>
+          </li>
+      </ul>
+  </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="index.html">
+              <img src="img/logo.png" alt="Glee Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="active" href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <div id="search-icon" class="dropdown">
+                <i class="fas fa-search" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="coding.html">Coding</a>
+                    <a href="cooking.html">Cooking</a>
+                    <a href="dancing.html">Dancing</a>
+                    <a href="guitar.html">Guitar</a>
+                    <a href="hiking.html">Hiking</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="singing.html">Singing</a>
+                    <a href="travelling.html">Travelling</a>
+                </div>
+              </div>
+          </li>
+      </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">Hiking</h2>
+    <div id="post-container">
+      <section id="hobby">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/8.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>About</h3>
+            <p>Hiking is one of the most beneficial and healthy hobbies anyone could choose to adopt. The fresh air and sun, aerobic walking, and up-close exposure to natural features such as streams, forests and mountainsides help to compensate for many of the physical and mental stresses or the work week.</p>
+            <p>Hiking can be combined with an endless number of outdoor activities. It can be on trail or off; it can be done as day hikes or overnight backpacking. But hiking can also be paired with other activities, such as canoeing, kayaking, river rafting, snowshoeing, cross-country skiing, or mountain climbing. It can be combined with horseback riding and/or with pack animals, such as llamas (which are considered earth-friendly, since their feet are softer on the trail than hooves).</p>
+            <p>First of all, one needs something to carry the equipment in. This can be simple fisherman`s jacket or a daypack for short hikes, or a full backpack. Next, consider which gear or equipment you’ll need for your particular trip. While hiking is considered different from backpacking (overnight camping), even for a day trip it is prudent to pack at least rudimentary items, should the unexpected happen (including being forced to stay the night, getting lost, or accidents). Hiking equipment may be put into several categories, such as items worn, items carried, essential gear, food and drink, and miscellaneous.</p>
+            <p>Geocaching is a great family activity suitable for all ages, even small children. Geocaching also makes for a great scouting and homeschooling activity. It is akin to hide-and-seek, where the seekers use GPS or mobile devices to find hidden containers, called "geocaches", at specific locations marked by coordinates. </p>
+          </div>
+        </div>
+
+      </section>
+
+      <aside id="sidebar">
+        <h3>Resources</h3>
+        <p>Videos</p>
+
+        <div class="vids">
+            <div class="iframe-container">
+                <p><iframe width="460" height="258.15" src="https://www.youtube.com/embed/b8IZ7BOs32o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+            <div class="iframe-container">
+                <p><iframe width="460" height="258.15" src="https://www.youtube.com/embed/8v0TXuLRLeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+        </div>
+        
+        <p>Links</p>
+        <p><a href="https://healthyhelperkaila.com/five-reasons-hiking-great-hobby/" style="color: #f2687f;">5 Reasons why hiking is a great hobby</a></p>
+        <p><a href="https://blog.liftopia.com/10-essential-hiking-tips-beginner-hike/" style="color: #f2687f;">10 Essential tips for hiking</a></p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: bpragati12@gmail.com">Contact Us</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/-prags/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/pragx12" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Developed by Pragati Bansal</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

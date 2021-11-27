@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Glee</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search a Hobby">
+            <ul id="myUL">
+                <li><a href="coding.html">Coding</a></li>
+                <li><a href="cooking.html">Cooking</a></li>
+                <li><a href="dancing.html">Dancing</a></li>
+                <li><a href="guitar.html">Guitar</a></li>
+                <li><a href="hiking.html">Hiking</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="singing.html">Singing</a></li>
+                <li><a href="travelling.html">Travelling</a></li>
+            </ul>
+          </li>
+      </ul>
+  </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="index.html">
+              <img src="img/logo.png" alt="Glee Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a class="active" href="about.html">About</a>
+          </li>
+          <li>
+            <div id="search-icon" class="dropdown">
+                <i class="fas fa-search" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="coding.html">Coding</a>
+                    <a href="cooking.html">Cooking</a>
+                    <a href="dancing.html">Dancing</a>
+                    <a href="guitar.html">Guitar</a>
+                    <a href="hiking.html">Hiking</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="singing.html">Singing</a>
+                    <a href="travelling.html">Travelling</a>
+                </div>
+              </div>
+        </li>
+      </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">About Glee</h2>
+    <div id="post-container">
+      <section id="hobby">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/14.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>About Glee</h3>
+            <p>There are many people in the world who either don't know what to do or on the other hand there are some people who are bored with their lives and don't know what kind of interesting things they can do … 
+            Hobbies are the best way to start with … not only can you get to learn and do exciting things but also make you different from others.
+            <ul>
+                <p><li>For personality development </li></p>
+                <p><li>Allows you to destress yourself while remaining mentally productive.</li></p>
+                <p><li>Reduce the risk of depression and dementia</li></p>
+                <p><li>Can be an additional source of income</li></p>
+                <p><li>It’s a skill afterall which will come in handy to leave an impression. Hence we need an engaging platform to make it easy for the users to develop a hobby.</li></p>
+            </ul> </p>
+            <p>There are many websites and articles where users can go and learn specific hobbies but it needs time to find the perfect and engaging source for learning. For example - If we want to learn photography. The first thing we will do is google ‘photography’. And we will get lost in searching and reading different articles. </p>
+            <p>But here, on our website we will provide short and sweet data regarding the hobby - Its long-term benefits and what difference will it make in one’s life. We have used webscrapping to get the relavent data from the web and our website presents this data to the users in a nutshell. Hence, this website is helping the users to explore and immediately reach the resources to learn that hobby. We have embedded some free videos and also provided some links to read about that hobby further.</p>
+
+            <h3>About Us</h3>
+            <p>I,the prefinal year student of MITS Gwalior developed this website as the minor project. <br>The only contributor of this project is :
+            <ul>
+                <p><li>Pragati Bansal (0901CS191080)</li></p>
+            </ul></p>
+
+          </div>
+        </div>
+
+      </section>
+
+      <aside id="sidebar">
+        <h3>Reach out to me</h3>
+        <p>Pragati</p>
+        <p><a href="https://github.com/pragx12" target="_blank" style="color: #f2687f;">Github</a></p>
+        <p><a href="https://www.linkedin.com/in/-prags/" target="_blank" style="color: #f2687f;">Linkedin</a></p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: bpragati12@gmail.com">Contact Us</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/-prags/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/pragx12/" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Developed by Pragati Bansal</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Glee</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a  href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search a Hobby">
+            <ul id="myUL">
+                <li><a href="coding.html">Coding</a></li>
+                <li><a href="cooking.html">Cooking</a></li>
+                <li><a href="dancing.html">Dancing</a></li>
+                <li><a href="guitar.html">Guitar</a></li>
+                <li><a href="hiking.html">Hiking</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="singing.html">Singing</a></li>
+                <li><a href="travelling.html">Travelling</a></li>
+            </ul>
+          </li>
+      </ul>
+  </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="index.html">
+              <img src="img/logo.png" alt="Glee Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="active" href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <div id="search-icon" class="dropdown">
+                <i class="fas fa-search" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="coding.html">Coding</a>
+                    <a href="cooking.html">Cooking</a>
+                    <a href="dancing.html">Dancing</a>
+                    <a href="guitar.html">Guitar</a>
+                    <a href="hiking.html">Hiking</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="singing.html">Singing</a>
+                    <a href="travelling.html">Travelling</a>
+                </div>
+              </div>
+          </li>
+      </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">Coding</h2>
+    <div id="post-container">
+      <section id="hobby">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/5.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>About</h3>
+            <p>If you want to make Computer Programming as a hobby, you are on the right page!</p>
+            <p>Programming is a rewarding career as well as an engaging hobby for developers. If you keep the approach to programming as a hobby than a job, you will sharpen your skills in a practical way. It can also be a fantastic way to master any new programming language.  </p>
+            <p>Here may be a quandary you actually have struggled with for years: you really like programming however, you never wish to create a career out of it. You would like to make computer programming as a hobby. Where will that leave you? Where should you start? How should you proceed?</p>
+            <p>For an instant, consider that you just are a little baby and you have not yet learned to run. Now you have just seen folks walking (learned a programming language) and try to run like them (try to scan other's solution). What does one expect, you will fall (fail to know most of them) many times, until you learn to run well. By the way, you have not yet learned to run (to code) and have started riding a cycle (started taking part in competitive coding).</p>
+            <p>So learning a language is never a fulfill necessity for competitive coding, you need to assume in a dynamic way to solve issues. This dynamic means of thinking can return solely with continuous practice. Even we face issues in understanding other's code. It only comes with practice.Once you gain confidence in coding solutions to your own super simple issues, jump to coding websites. Ensure that you begin finding simple level queries on code forces that are tagged with Div two, A. They are the fundamental level of issues, so jump to level B, C...</p>
+          </div>
+        </div>
+
+      </section>
+
+      <aside id="sidebar">
+        <h3>Resources</h3>
+        <p>Videos</p>
+
+        <div class="vids">
+            <div class="iframe-container">
+                <p><iframe width="460" height="258.15" src="https://www.youtube.com/embed/Mj3QejzYZ70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+            <div class="iframe-container">
+                <p><iframe width="460" height="258.15" src="https://www.youtube.com/embed/_uQrJ0TkZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+        </div>
+        
+        <p>Links</p>
+        <p><a href="https://www.codecademy.com/learn/learn-how-to-code" style="color: #f2687f;">How to learn to code</a></p>
+        <p><a href="https://www.topuniversities.com/courses/computer-science-information-systems/why-everyone-should-learn-code#:~:text=Coding%20can%20boost%20problem%20solving,left%E2%80%9D%20side%20of%20the%20brain." style="color: #f2687f;">Why everyone should learn to code</a></p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: bpragati12@gmail.com">Contact Us</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/-prags/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/pragx12" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Developed by Pragati Bansal</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
